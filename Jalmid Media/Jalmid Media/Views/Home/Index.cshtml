@@ -1,0 +1,124 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>@Model.Sliders.Header</h1>
+            <p>@Model.Sliders.Desc</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Başlayın</a>
+                <a href="services.html" class="btn btn-secondary">Xidmətlərimiz</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="~/@Model.Sliders.ImageUrl" alt="Digital Marketing Strategy">
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2>Xidmətlərimiz</h2>
+            <p>Biznesinizi inkişaf etdirmək üçün hərtərəfli rəqəmsal marketinq həlləri</p>
+        </div>
+        <div class="services-grid">
+           @foreach (var item in Model.XidmetlerHomes)
+            {
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas @item.İcon"></i>
+                    </div>
+                    <h3>@item.Name</h3>
+                    <p>@item.Desc</p>
+                    <a href="services.html#seo" class="read-more">Ətraflı məlumat<i class="fas fa-arrow-right"></i></a>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us">
+    <div class="container">
+        <div class="section-header">
+            <h2>Niyə Biz</h2>
+            <p>Bizi digər rəqəmsal marketinq agentliklərindən fərqləndirən nədir</p>
+        </div>
+        <div class="features-grid">
+            @foreach (var item in Model.WhyUs)
+            {
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas @item.Icon"></i>
+                    </div>
+                    <h3>@item.Name</h3>
+                    <p>@item.Desc</p>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Müştəri rəyləri</h2>
+            <p>Müştərilərimiz xidmətlərimiz haqqında nə deyirlər</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <p>"Jalmid Media onlayn varlığımızı dəyişdirdi. Onlarla işlədikdən sonra cəmi 6 ay ərzində üzvi trafikimiz 200% artdı."</p>
+                    <div class="client-info">
+                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
+                        <h4>Samir Məmmədov</h4>
+                        <p>Baş direktor, Tech Solutions Inc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Onların SEO təcrübəsi sənayemizdə rəqabət qabiliyyətli açar sözlər üçün sıralanmamıza kömək etdi. Dönüşüm nisbətimiz əhəmiyyətli dərəcədə yaxşılaşdı."</p>
+                    <div class="client-info">
+                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
+                        <h4>Samirə Abbasova</h4>
+                        <p>Marketinq direktoru, Pərakəndə satış qrupu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Jalmid Media-dakı komanda peşəkar, həssasdır və nəticələr verir. Onlar bizim marketinq departamentimizin bir uzantısına çevrildilər."</p>
+                    <div class="client-info">
+                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
+                        <h4>Mikayıl Süleymanov</h4>
+                        <p>Təsisçisi, StartUp Ventures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Biznesinizi Böyütməyə Hazırsınız?</h2>
+            <p>Ödənişsiz məsləhət almaq üçün bu gün bizimlə əlaqə saxlayın və rəqəmsal marketinq məqsədlərinizə çatmağınıza necə kömək edə biləcəyimizi öyrənin.</p>
+            <a href="contact.html" class="btn btn-primary">Bizimlə əlaqə saxlayın</a>
+        </div>
+    </div>
+</section>
+
