@@ -19,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\whyus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\whyus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\xidmetlerhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\xidmetlerhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\homebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\homebanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,32 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WhyUs.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\WhyUs.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Models\\WhyUs.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\WhyUs.cs",
-              "RelativeToolTip": "Jalmid Media\\Models\\WhyUs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Title": "HomeBanner.cs",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\HomeBanner.cs",
+              "RelativeDocumentMoniker": "Jalmid Media\\Models\\HomeBanner.cs",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\HomeBanner.cs",
+              "RelativeToolTip": "Jalmid Media\\Models\\HomeBanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T19:41:31.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "XidmetlerHome.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\XidmetlerHome.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Models\\XidmetlerHome.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\XidmetlerHome.cs",
-              "RelativeToolTip": "Jalmid Media\\Models\\XidmetlerHome.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T19:00:09.362Z",
+              "WhenOpened": "2025-05-19T21:52:27.842Z",
               "EditorCaption": ""
             },
             {
@@ -70,7 +53,7 @@
               "RelativeDocumentMoniker": "Jalmid Media\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Jalmid Media\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv2YAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T12:53:29.756Z",
               "EditorCaption": ""
@@ -83,7 +66,7 @@
               "RelativeDocumentMoniker": "Jalmid Media\\ViewModels\\HomeVM.cs",
               "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\HomeVM.cs",
               "RelativeToolTip": "Jalmid Media\\ViewModels\\HomeVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T18:18:16.746Z",
               "EditorCaption": ""
@@ -96,7 +79,7 @@
               "RelativeDocumentMoniker": "Jalmid Media\\DAL\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Jalmid Media\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T12:33:56.577Z",
               "EditorCaption": ""
@@ -109,7 +92,7 @@
               "RelativeDocumentMoniker": "Jalmid Media\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Jalmid Media\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T12:33:17.802Z",
               "EditorCaption": ""

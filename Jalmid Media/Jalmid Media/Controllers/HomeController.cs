@@ -20,6 +20,8 @@ namespace Jalmid_Media.Controllers
             homeVM.Sliders = _context.Sliders.FirstOrDefault();
             homeVM.XidmetlerHomes = _context.XidmetlerHomes.ToList();
             homeVM.WhyUs = _context.WhyUs.ToList();
+            homeVM.Testimonials = _context.Testimonials.ToList();
+            homeVM.HomeBanner = _context.HomeBanners.FirstOrDefault();
 
             return View(homeVM);
         }

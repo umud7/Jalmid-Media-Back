@@ -69,43 +69,27 @@
             <p>Müştərilərimiz xidmətlərimiz haqqında nə deyirlər</p>
         </div>
         <div class="testimonial-slider">
-            <div class="testimonial-slide active">
-                <div class="testimonial-content">
-                    <p>"Jalmid Media onlayn varlığımızı dəyişdirdi. Onlarla işlədikdən sonra cəmi 6 ay ərzində üzvi trafikimiz 200% artdı."</p>
-                    <div class="client-info">
-                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
-                        <h4>Samir Məmmədov</h4>
-                        <p>Baş direktor, Tech Solutions Inc.</p>
+            @foreach (var item in Model.Testimonials)
+            {
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>@item.Header</p>
+                        <div class="client-info">
+                            <img src="@item.ImageUrl" alt="@item.ImageUrl" class="client-photo">
+                            <h4>@item.Name</h4>
+                            <p>@item.Desc</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="testimonial-slide">
-                <div class="testimonial-content">
-                    <p>"Onların SEO təcrübəsi sənayemizdə rəqabət qabiliyyətli açar sözlər üçün sıralanmamıza kömək etdi. Dönüşüm nisbətimiz əhəmiyyətli dərəcədə yaxşılaşdı."</p>
-                    <div class="client-info">
-                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
-                        <h4>Samirə Abbasova</h4>
-                        <p>Marketinq direktoru, Pərakəndə satış qrupu</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slide">
-                <div class="testimonial-content">
-                    <p>"Jalmid Media-dakı komanda peşəkar, həssasdır və nəticələr verir. Onlar bizim marketinq departamentimizin bir uzantısına çevrildilər."</p>
-                    <div class="client-info">
-                        <img src="~/Testimonial-1.jpg" alt="Samir Məmmədov" class="client-photo">
-                        <h4>Mikayıl Süleymanov</h4>
-                        <p>Təsisçisi, StartUp Ventures</p>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
         <div class="testimonial-controls">
             <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
             <div class="testimonial-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                @for (int i = 0; i < Model.Testimonials.Count; i++)
+                {
+                    <span class="dot @(i == 0 ? "active" : "")"></span>
+                }
             </div>
             <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
         </div>
@@ -115,8 +99,8 @@
 <section class="cta">
     <div class="container">
         <div class="cta-content">
-            <h2>Biznesinizi Böyütməyə Hazırsınız?</h2>
-            <p>Ödənişsiz məsləhət almaq üçün bu gün bizimlə əlaqə saxlayın və rəqəmsal marketinq məqsədlərinizə çatmağınıza necə kömək edə biləcəyimizi öyrənin.</p>
+            <h2>@Model.HomeBanner.Name</h2>
+            <p>@Model.HomeBanner.Description</p>
             <a href="contact.html" class="btn btn-primary">Bizimlə əlaqə saxlayın</a>
         </div>
     </div>
