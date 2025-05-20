@@ -1,0 +1,45 @@
+﻿@model Bio
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Jalmid<span>Media</span></h2>
+                <p>Rəqəmsal inkişafda tərəfdaşınız</p>
+            </div>
+            <div class="footer-links">
+                <h3>Sürətli bağlantılar</h3>
+                <ul>
+                    <li><a href="index.html">Ana</a></li>
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="services.html">Xidmətlərimiz</a></li>
+                    <li><a href="contact.html">Əlaqə</a></li>
+                </ul>
+            </div>
+            <div class="footer-services">
+                <h3>Xidmətlərimiz</h3>
+                <ul>
+                    <li><a href="services.html#seo">SEO</a></li>
+                    <li><a href="services.html#ppc">PPC</a></li>
+                    <li><a href="services.html#social">SMM</a></li>
+                    <li><a href="services.html#email">E-poçt Marketinqi</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Əlaqə</h3>
+                <p><i class="fas fa-map-marker-alt"></i> @Model.Address</p>
+                <p><i class="fas fa-phone"></i>@Model.Telephone</p>
+                <p><i class="fas fa-envelope"></i>@Model.Mail</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab @Model.IconF"></i></a>
+                    <a href="#"><i class="fab @Model.IconT"></i></a>
+                    <a href="#"><i class="fab @Model.IconL"></i></a>
+                    <a href="#"><i class="fab @Model.IconI"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Jalmid Media. Bütün Hüquqlar Qorunur.</p>
+        </div>
+    </div>
+</footer>

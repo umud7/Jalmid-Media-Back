@@ -1,0 +1,166 @@
+﻿@model AboutVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="page-header">
+    <div class="container">
+        <h1>@Model.AboutBanner.Name</h1>
+        <p>@Model.AboutBanner.Desc</p>
+    </div>
+</section>
+
+<section class="about-story">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="@Model.WeAreStory.ImageUrl" alt="DigiRank Team">
+            </div>
+            <div class="about-text">
+                <h2>Bizim Hekayəmiz</h2>
+                <p>@Model.WeAreStory.Desc1</p>
+                <p>@Model.WeAreStory.Desc2</p>
+                <p>@Model.WeAreStory.Desc3</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mission-values alt-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Missiyamız və Dəyərlərimiz</h2>
+            <p>Bizi idarə edən və rəqəmsal marketinqə yanaşmamızı formalaşdıran nədir</p>
+        </div>
+        <div class="mission-content">
+            <div class="mission">
+                <h3>@Model.Mission.Name</h3>
+                <p>@Model.Mission.Desc</p>
+            </div>
+            <div class="values">
+                <h3>Əsas Dəyərlərimiz</h3>
+                <ul class="values-list">
+                   @foreach (var item in Model.MainValues)
+                    {
+                        <li>
+                            <i class="fas @item.Icon"></i>
+                            <div>
+                                <h4>@item.Name</h4>
+                                <p>@item.Desc</p>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team">
+    <div class="container">
+        <div class="section-header">
+            <h2>Komandamız</h2>
+            <p>Uğurlu rəqəmsal marketinq strategiyalarımızın arxasında duran mütəxəssislər</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="Staff-3.png" alt="Team Member">
+                </div>
+                <h3>Aydın İsmayıllı</h3>
+                <p class="member-role">Təsisçi və CEO</p>
+                <p class="member-bio">Rəqəmsal marketinq sahəsində 15 ildən çox təcrübəyə malik Aydın, görmə və təcrübə ilə komandamıza rəhbərlik edir.</p> <br><br>
+                <div class="member-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="Staff-4.png" alt="Team Member">
+                </div>
+                <h3>Elvira Çələbi</h3>
+                <p class="member-role">SEO direktoru</p>
+                <p class="member-bio">Emily texniki SEO sahəsində ixtisaslaşmışdır və çoxsaylı müştərilərə rəqabət qabiliyyətli açar sözlər üçün ən yüksək sıralamalara nail olmağa kömək etmişdir.</p>
+                <div class="member-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="Staff-1.png" alt="Team Member">
+                </div>
+                <h3>Elmira Şahbazova</h3>
+                <p class="member-role">PPC Mütəxəssisi</p>
+                <p class="member-bio">Elmira yüksək konvertasiya edən kampaniyalar yaratmaq bacarığına malik sertifikatlı Google Ads ekspertidir.</p> <br> <br>
+                <div class="member-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="Staff-2.png" alt="Team Member">
+                </div>
+                <h3>Samir Abbasov</h3>
+                <p class="member-role">Kontent Mütəxəsisi</p>
+                <p class="member-bio">Samir auditoriyanı cəlb edən və dönüşümləri təmin edən cəlbedici məzmun strategiyaları hazırlayır.</p> <br> <br>
+                <div class="member-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="achievements alt-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nailiyyətlərimiz</h2>
+            <p>Təcrübəmizi və uğurumuzu nümayiş etdirən mərhələlər</p>
+        </div>
+        <div class="achievements-grid">
+            <div class="achievement">
+                <div class="achievement-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="achievement-number">500+</div>
+                <div class="achievement-text">Uğurlu Layihələr</div>
+            </div>
+            <div class="achievement">
+                <div class="achievement-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="achievement-number">200+</div>
+                <div class="achievement-text">Xoşbəxt Müştərilər</div>
+            </div>
+            <div class="achievement">
+                <div class="achievement-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="achievement-number">150%</div>
+                <div class="achievement-text">Orta Trafik artımı</div>
+            </div>
+            <div class="achievement">
+                <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="achievement-number">15+</div>
+                <div class="achievement-text">Sənaye Mükafatları</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Bizimlə işləməyə hazırsınız?</h2>
+            <p>Rəqəmsal marketinq məqsədlərinizə çatmağınıza necə kömək edə biləcəyimizi müzakirə etmək üçün bu gün komandamızla əlaqə saxlayın.</p>
+            <a href="contact.html" class="btn btn-primary">Əlaqə saxlayın</a>
+        </div>
+    </div>
+</section>
+

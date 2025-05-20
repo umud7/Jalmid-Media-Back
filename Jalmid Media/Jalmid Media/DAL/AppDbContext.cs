@@ -15,5 +15,10 @@ namespace Jalmid_Media.DAL
         public DbSet<WhyUs> WhyUs { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<HomeBanner> HomeBanners { get; set; }
+        public DbSet<Bio> Bio { get; set; }
+        public DbSet<AboutBanner> AboutBanners { get; set; }
+        public DbSet<WeAreStory> WeAreStories { get; set; }
+        public DbSet<Mission> Missions { get; set; }
+        public DbSet<MainValue> MainValues { get; set; }
     }
 }
