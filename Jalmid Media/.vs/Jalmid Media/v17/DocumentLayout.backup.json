@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\migrations\\20250521102052_addaboutendbannertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\migrations\\20250521102052_addaboutendbannertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\viewmodels\\aboutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\viewmodels\\aboutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\aboutendbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\aboutendbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\viewmodels\\newsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\viewmodels\\newsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\viewcomponents\\headerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\bio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\bio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,71 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T18:35:58.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250521102052_addAboutEndBannerTable.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Migrations\\20250521102052_addAboutEndBannerTable.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Migrations\\20250521102052_addAboutEndBannerTable.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Migrations\\20250521102052_addAboutEndBannerTable.cs",
-              "RelativeToolTip": "Jalmid Media\\Migrations\\20250521102052_addAboutEndBannerTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:20:52.793Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Jalmid Media\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Jalmid Media\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T18:33:33.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AboutEndBanner.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\AboutEndBanner.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Models\\AboutEndBanner.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\AboutEndBanner.cs",
-              "RelativeToolTip": "Jalmid Media\\Models\\AboutEndBanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:15:16.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AboutVM.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\AboutVM.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\ViewModels\\AboutVM.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\AboutVM.cs",
-              "RelativeToolTip": "Jalmid Media\\ViewModels\\AboutVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:02:46.294Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T18:30:43.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T19:54:43.309Z",
+              "Title": "NewsVM.cs",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\NewsVM.cs",
+              "RelativeDocumentMoniker": "Jalmid Media\\ViewModels\\NewsVM.cs",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\NewsVM.cs",
+              "RelativeToolTip": "Jalmid Media\\ViewModels\\NewsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T18:28:41.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AboutController.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\AboutController.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Controllers\\AboutController.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\AboutController.cs",
-              "RelativeToolTip": "Jalmid Media\\Controllers\\AboutController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAABPAAAAAAAAAA==",
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Jalmid Media\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Jalmid Media\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:47:07.085Z",
+              "WhenOpened": "2025-05-21T18:27:26.089Z",
               "EditorCaption": ""
             },
             {
@@ -133,83 +109,10 @@
               "RelativeDocumentMoniker": "Jalmid Media\\DAL\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "Jalmid Media\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBgAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T12:33:56.577Z",
+              "WhenOpened": "2025-05-21T10:48:59.706Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T19:43:46.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T19:27:34.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HeaderViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewComponents\\HeaderViewComponent.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\ViewComponents\\HeaderViewComponent.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewComponents\\HeaderViewComponent.cs",
-              "RelativeToolTip": "Jalmid Media\\ViewComponents\\HeaderViewComponent.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:42:22.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T19:26:58.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FooterViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewComponents\\FooterViewComponent.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\ViewComponents\\FooterViewComponent.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewComponents\\FooterViewComponent.cs",
-              "RelativeToolTip": "Jalmid Media\\ViewComponents\\FooterViewComponent.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:18:43.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Bio.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\Bio.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Models\\Bio.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\Bio.cs",
-              "RelativeToolTip": "Jalmid Media\\Models\\Bio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:51:55.473Z"
             }
           ]
         }

@@ -1,0 +1,50 @@
+﻿@model ServiceVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<section class="page-header">
+    <div class="container">
+        <h1>@Model.ServiceBanner.Name</h1>
+        <p>@Model.ServiceBanner.Description</p>
+    </div>
+</section>
+
+<section id="seo" class="service-detail">
+    <div class="container">
+        @foreach (var item in Model.Services)
+        {
+            <div class="service-content">
+                <div class="service-text">
+                    <h2>@item.Name</h2>
+                    <p>@item.Description</p>
+                    <h3>@item.Type</h3>
+                    <ul class="service-list">
+                        <li><i class="fas @item.CheckIcon1"></i> @item.Title1</li>
+                        <li><i class="fas @item.CheckIcon2"></i> @item.Title2</li>
+                        <li><i class="fas @item.CheckIcon3"></i> @item.Title3</li>
+                        <li><i class="fas @item.CheckIcon4"></i> @item.Title4</li>
+                        <li><i class="fas @item.CheckIcon5"></i> @item.Title5</li>
+                        <li><i class="fas @item.CheckIcon6"></i> @item.Title6</li>
+                        <li><i class="fas @item.CheckIcon7"></i> @item.Title7</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">SEO ilə başlayın</a>
+                </div>
+                <div class="service-image">
+                    <img src="@item.ImageUrl" alt="SEO Services">
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <h2>@Model.EndOfServiceBanner.Name</h2>
+            <p>@Model.EndOfServiceBanner.Desc</p>
+            <a href="contact.html" class="btn btn-primary">Əlaqə saxlayın</a>
+        </div>
+    </div>
+</section>

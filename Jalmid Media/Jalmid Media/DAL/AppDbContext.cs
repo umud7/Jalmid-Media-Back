@@ -23,5 +23,8 @@ namespace Jalmid_Media.DAL
         public DbSet<Staff> Staff { get; set; }
         public DbSet<Achievements> Achievements { get; set; }
         public DbSet<AboutEndBanner> AboutEndBanners { get; set; }
+        public DbSet<ServiceBanner> ServiceBanners { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<EndOfServiceBanner> EndOfServiceBanners { get; set; }
     }
 }
