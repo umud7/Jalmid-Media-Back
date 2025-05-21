@@ -63,54 +63,21 @@
             <p>Uğurlu rəqəmsal marketinq strategiyalarımızın arxasında duran mütəxəssislər</p>
         </div>
         <div class="team-grid">
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="Staff-3.png" alt="Team Member">
+            @foreach (var item in Model.Staffs)
+            {
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="@item.ImageUrl" alt="Team Member">
+                    </div>
+                    <h3>@item.Name</h3>
+                    <p class="member-role">@item.Title</p>
+                    <p class="member-bio">@item.Description</p> <br>
+                    <div class="member-social">
+                        <a href="#"><i class="fab @item.Icon1"></i></a>
+                        <a href="#"><i class="fab @item.Icon2"></i></a>
+                    </div>
                 </div>
-                <h3>Aydın İsmayıllı</h3>
-                <p class="member-role">Təsisçi və CEO</p>
-                <p class="member-bio">Rəqəmsal marketinq sahəsində 15 ildən çox təcrübəyə malik Aydın, görmə və təcrübə ilə komandamıza rəhbərlik edir.</p> <br><br>
-                <div class="member-social">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="Staff-4.png" alt="Team Member">
-                </div>
-                <h3>Elvira Çələbi</h3>
-                <p class="member-role">SEO direktoru</p>
-                <p class="member-bio">Emily texniki SEO sahəsində ixtisaslaşmışdır və çoxsaylı müştərilərə rəqabət qabiliyyətli açar sözlər üçün ən yüksək sıralamalara nail olmağa kömək etmişdir.</p>
-                <div class="member-social">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="Staff-1.png" alt="Team Member">
-                </div>
-                <h3>Elmira Şahbazova</h3>
-                <p class="member-role">PPC Mütəxəssisi</p>
-                <p class="member-bio">Elmira yüksək konvertasiya edən kampaniyalar yaratmaq bacarığına malik sertifikatlı Google Ads ekspertidir.</p> <br> <br>
-                <div class="member-social">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-            <div class="team-member">
-                <div class="member-image">
-                    <img src="Staff-2.png" alt="Team Member">
-                </div>
-                <h3>Samir Abbasov</h3>
-                <p class="member-role">Kontent Mütəxəsisi</p>
-                <p class="member-bio">Samir auditoriyanı cəlb edən və dönüşümləri təmin edən cəlbedici məzmun strategiyaları hazırlayır.</p> <br> <br>
-                <div class="member-social">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>
@@ -122,34 +89,16 @@
             <p>Təcrübəmizi və uğurumuzu nümayiş etdirən mərhələlər</p>
         </div>
         <div class="achievements-grid">
-            <div class="achievement">
-                <div class="achievement-icon">
-                    <i class="fas fa-award"></i>
+            @foreach (var item in Model.Achievements)
+            {
+                <div class="achievement">
+                    <div class="achievement-icon">
+                        <i class="fas @item.Icon"></i>
+                    </div>
+                    <div class="achievement-number">@item.Number</div>
+                    <div class="achievement-text">@item.Name</div>
                 </div>
-                <div class="achievement-number">500+</div>
-                <div class="achievement-text">Uğurlu Layihələr</div>
-            </div>
-            <div class="achievement">
-                <div class="achievement-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <div class="achievement-number">200+</div>
-                <div class="achievement-text">Xoşbəxt Müştərilər</div>
-            </div>
-            <div class="achievement">
-                <div class="achievement-icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="achievement-number">150%</div>
-                <div class="achievement-text">Orta Trafik artımı</div>
-            </div>
-            <div class="achievement">
-                <div class="achievement-icon">
-                    <i class="fas fa-trophy"></i>
-                </div>
-                <div class="achievement-number">15+</div>
-                <div class="achievement-text">Sənaye Mükafatları</div>
-            </div>
+            }
         </div>
     </div>
 </section>

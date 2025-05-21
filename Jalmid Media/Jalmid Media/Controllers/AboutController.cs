@@ -21,6 +21,9 @@ namespace Jalmid_Media.Controllers
             aboutVM.WeAreStory = _context.WeAreStories.FirstOrDefault();
             aboutVM.Mission = _context.Missions.FirstOrDefault();
             aboutVM.MainValues = _context.MainValues.ToList();
+            aboutVM.Staffs = _context.Staff.ToList();
+            aboutVM.Achievements = _context.Achievements.ToList();
+            aboutVM.AboutEndBanner = _context.AboutEndBanners.FirstOrDefault();
             return View(aboutVM);
         }
     }

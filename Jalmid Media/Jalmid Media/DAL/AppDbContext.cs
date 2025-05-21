@@ -20,5 +20,8 @@ namespace Jalmid_Media.DAL
         public DbSet<WeAreStory> WeAreStories { get; set; }
         public DbSet<Mission> Missions { get; set; }
         public DbSet<MainValue> MainValues { get; set; }
+        public DbSet<Staff> Staff { get; set; }
+        public DbSet<Achievements> Achievements { get; set; }
+        public DbSet<AboutEndBanner> AboutEndBanners { get; set; }
     }
 }
