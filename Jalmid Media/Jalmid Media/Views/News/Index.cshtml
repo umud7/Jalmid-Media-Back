@@ -16,13 +16,13 @@
         <h2>Seçilmiş Xəbərlər</h2>
         <div class="news-card featured">
             <div class="news-image">
-                <img src="~/Staff-1.png" alt="Featured news image">
+                <img src="~/@Model.HeaderNews.ImageUrl" alt="Featured news image">
             </div>
             <div class="news-content">
-                <span class="category">Technology</span>
-                <h3>New AI Breakthrough Changes How We Interact With Technology</h3>
-                <p class="date">May 18, 2025</p>
-                <p class="excerpt">Researchers have developed a revolutionary AI system that can understand and respond to human emotions with unprecedented accuracy, potentially transforming how we interact with technology in our daily lives.</p>
+                <span class="category">@Model.HeaderNews.Tag</span>
+                <h3>@Model.HeaderNews.Title</h3>
+                <p class="date">@Model.HeaderNews.Date</p>
+                <p class="excerpt">@Model.HeaderNews.Description</p>
                 <button class="read-more" data-id="1">Read More</button>
             </div>
         </div>
@@ -31,54 +31,23 @@
     <section class="latest-news">
         <h2>Son Xəbərlər</h2>
         <div class="news-grid">
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="~/Staff-2.png" alt="News image">
+            
+            @foreach (var item in Model.LastNews)
+            {
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="~/@item.ImageUrl" alt="News image">
+                    </div>
+                    <div class="news-content">
+                        <span class="category">@item.Tag</span>
+                        <h3>@item.Title</h3>
+                        <p class="date">@item.Date</p>
+                        <p class="excerpt">@item.Description</p>
+                        <button class="read-more" data-id="2">Ətraflı Oxu</button>
+                    </div>
                 </div>
-                <div class="news-content">
-                    <span class="category">Biznes</span>
-                    <h3>Qlobal bazarlar rekord həddə çatır</h3>
-                    <p class="date">May 17, 2025</p>
-                    <p class="excerpt">İqtisadi canlanma gözləntiləri aşmaqda davam etdiyi üçün dünya üzrə fond bazarları görünməmiş səviyyələrə çatıb.</p> <br>
-                    <button class="read-more" data-id="2">Ətraflı Oxu</button>
-                </div>
-            </div>
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="~/Staff-3.png" alt="News image">
-                </div>
-                <div class="news-content">
-                    <span class="category">Sağlamlıq</span>
-                    <h3>Yeni Tədqiqat Fasiləli Orucun Faydalarını Açıqlayır</h3>
-                    <p class="date">May 16, 2025</p>
-                    <p class="excerpt">Yeni Tədqiqat Fasiləli İnsanlara Ramazanda Orucun Faydalarını Açıqlayır</p> <br>
-                    <button class="read-more" data-id="3">Ətraflı Oxu</button>
-                </div>
-            </div>
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="~/Staff-3.png" alt="News image">
-                </div>
-                <div class="news-content">
-                    <span class="category">Ətraf Mühüt</span>
-                    <h3>Bərpa olunan enerji qalıq yanacaqları üstələyir</h3>
-                    <p class="date">May 15, 2025</p>
-                    <p class="excerpt">Tarixdə ilk dəfə olaraq, bərpa olunan enerji mənbələri qlobal miqyasda qalıq yanacaqlardan daha çox elektrik enerjisi istehsal etmişdir.</p>
-                    <button class="read-more" data-id="4">Ətraflı Oxu</button>
-                </div>
-            </div>
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="~/Staff-4.png" alt="News image">
-                </div>
-                <div class="news-content">
-                    <span class="category">İdman</span>
-                    <h3>Underdog Komandası Çempionatın qalibi oldu</h3>
-                    <p class="date">May 14, 2025</p>
-                    <p class="excerpt">Təəccüblü bir məyusluq içində, underdog komandası 50 ildə ilk titulunu iddia etmək üçün mövcud çempionları məğlub etdi.</p> <br>
-                    <button class="read-more" data-id="5">Ətraflı Oxu</button>
-                </div>
-            </div>
+            }
+            
         </div>
     </section>
 </main>
