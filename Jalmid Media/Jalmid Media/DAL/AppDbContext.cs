@@ -28,5 +28,6 @@ namespace Jalmid_Media.DAL
         public DbSet<EndOfServiceBanner> EndOfServiceBanners { get; set; }
         public DbSet<HeaderNews> HeaderNews { get; set; }
         public DbSet<LastNews> LastNews { get; set; }
+        public DbSet<ContactBanner> ContactBanners { get; set; }
     }
 }

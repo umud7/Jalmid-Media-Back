@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jalmid Media")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+763b95775ec85100d8ca97329d525fc801390e77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf32a866a397fde1c4d8c90f6140ccccbcdbb58d")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jalmid Media.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

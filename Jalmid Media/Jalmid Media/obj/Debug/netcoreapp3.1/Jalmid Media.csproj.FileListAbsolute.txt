@@ -135,3 +135,4 @@ C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\obj\Debug\netcoreapp3.1\Ra
 C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
 C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\obj\Debug\netcoreapp3.1\Razor\Views\Service\Index.cshtml.g.cs
 C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\obj\Debug\netcoreapp3.1\Razor\Views\News\Index.cshtml.g.cs
+C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs

@@ -1,0 +1,194 @@
+﻿@model ContactVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="page-header">
+    <div class="container">
+        <h1>Bizimlə əlaqə saxlayın</h1>
+        <p>Pulsuz konsultasiya üçün komandamızla əlaqə saxlayın</p>
+    </div>
+</section>
+
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>Əlaqə Saxlayın</h2>
+                <p>Xidmətlərimizlə bağlı suallarınız var və ya layihənizi müzakirə etmək istəyirsiniz? Aşağıdakı əlaqə məlumatlarından istifadə edərək bizimlə əlaqə saxlayın və ya formu doldurun və biz ən qısa zamanda sizinlə əlaqə saxlayacağıq.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Ünvanımız</h3>
+                            <p>123 Marketing Street<br>Digital City, DC 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Telefon nömrəsi</h3>
+                            <p>+994-050-465-83-37</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>E-poçt ünvanı</h3>
+                            <p>info@jalmidmedia.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>İş saatları</h3>
+                            <p>Bazar ertəsi - Cümə: 9am - 5pm<br>Şənbə - Bazar: Bağlıdır</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-connect">
+                    <h3>Bizimlə əlaqə saxlayın</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Bizə Mesaj Göndərin</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ad,Soyad</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-poçt ünvanı</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefon nömrəsi</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Şirkət Adı</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Maraqlandığınız Xidmət</label>
+                        <select id="service" name="service">
+                            <option value="">Xidmət seçin</option>
+                            <option value="seo">Axtarış Motorunun Optimizasiyası (SEO)</option>
+                            <option value="ppc">Klik başına Ödəniş (PPC) Reklamı</option>
+                            <option value="social">Sosial Media Marketinqi</option>
+                            <option value="email">E-poçt Marketinqi</option>
+                            <option value="other">Digər Xidmətlər</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn btn-primary">Mesaj Göndər</button>
+                    </div>
+                </form>
+                <div id="formStatus" class="form-status"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <div class="container">
+        <h2>Bizi tapın</h2>
+        <div class="map-container">
+            <!-- Placeholder for map -->
+            <div class="map-placeholder">
+                <img src="~/Back-1.jpg" alt="Map Location">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section alt-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Tez-tez verilən suallar</h2>
+            <p>Xidmətlərimiz və prosesimizlə bağlı ümumi suallar</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>SEO nəticələrini görmək nə qədər vaxt aparır?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>SEO uzunmüddətli strategiyadır. Bəzi təkmilləşdirmələr bir neçə həftə ərzində görünsə də, əhəmiyyətli nəticələr adətən 3-6 ay çəkir. Vaxt qrafiki veb saytınızın hazırkı vəziyyəti, sənayenizdəki rəqabət və həyata keçirilən strategiyalar kimi amillərdən asılıdır.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Qiymət quruluşunuz necədir?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Xüsusi ehtiyaclarınıza və məqsədlərinizə əsasən fərdiləşdirilmiş qiymətlər təklif edirik. Xidmətlərimiz aylıq işçilər, layihə əsaslı iş və ya saatlıq konsaltinq kimi təqdim edilə bilər. Biznes tələblərinizə uyğunlaşdırılmış fərdi qiymət təklifi üçün bizimlə əlaqə saxlayın.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Siz müqavilələr təklif edirsiniz, yoxsa aydan aya?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Mənalı nəticələri görmək üçün adətən SEO xidmətləri üçün minimum 6 aylıq öhdəlik tövsiyə edirik. Digər xidmətlər üçün biz sizin üstünlükləriniz və layihə tələblərinizdən asılı olaraq həm müqavilə, həm də aydan aya seçimlər təklif edirik.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Kampaniyalarınızın uğurunu necə qiymətləndirirsiniz?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Biz üzvi trafik, açar söz sıralamaları, dönüşüm nisbətləri, nişan ölçüləri və ROI daxil olmaqla müxtəlif ölçüləri izləyirik. Strategiyalarımızın irəliləyişini və biznes məqsədlərinizə təsirini göstərən müntəzəm hesabatlar təqdim edirik.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Müəyyən sənaye sahələrində şirkətlərlə işləyirsiniz?</h3>
+                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>Biz e-ticarət, səhiyyə, texnologiya, peşəkar xidmətlər və s. daxil olmaqla müxtəlif sənaye sahələri üzrə bizneslərlə işləyirik. Komandamız müxtəlif biznes növləri və bazarlar üçün effektiv rəqəmsal marketinq strategiyaları hazırlamaq təcrübəsinə malikdir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
