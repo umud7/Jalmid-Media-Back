@@ -24,7 +24,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Ünvanımız</h3>
-                            <p>123 Marketing Street<br>Digital City, DC 12345</p>
+                            <p>@Model.ContactInfos.Address</p>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Telefon nömrəsi</h3>
-                            <p>+994-050-465-83-37</p>
+                            <p>@Model.ContactInfos.Telephone</p>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>E-poçt ünvanı</h3>
-                            <p>info@jalmidmedia.com</p>
+                            <p>@Model.ContactInfos.Epoct</p>
                         </div>
                     </div>
 
@@ -54,18 +54,8 @@
                         </div>
                         <div class="contact-text">
                             <h3>İş saatları</h3>
-                            <p>Bazar ertəsi - Cümə: 9am - 5pm<br>Şənbə - Bazar: Bağlıdır</p>
+                            <p>@Model.ContactInfos.WorkHours</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="social-connect">
-                    <h3>Bizimlə əlaqə saxlayın</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -126,7 +116,7 @@
         <div class="map-container">
             <!-- Placeholder for map -->
             <div class="map-placeholder">
-                <img src="~/Back-1.jpg" alt="Map Location">
+                <img src="~/@Model.ContactMap.Map" alt="Map Location">
             </div>
         </div>
     </div>
@@ -139,55 +129,18 @@
             <p>Xidmətlərimiz və prosesimizlə bağlı ümumi suallar</p>
         </div>
         <div class="faq-container">
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>SEO nəticələrini görmək nə qədər vaxt aparır?</h3>
-                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+           @foreach (var item in Model.ContactFaqs)
+            {
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>@item.Name</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>@item.Description</p>
+                    </div>
                 </div>
-                <div class="faq-answer">
-                    <p>SEO uzunmüddətli strategiyadır. Bəzi təkmilləşdirmələr bir neçə həftə ərzində görünsə də, əhəmiyyətli nəticələr adətən 3-6 ay çəkir. Vaxt qrafiki veb saytınızın hazırkı vəziyyəti, sənayenizdəki rəqabət və həyata keçirilən strategiyalar kimi amillərdən asılıdır.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Qiymət quruluşunuz necədir?</h3>
-                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
-                </div>
-                <div class="faq-answer">
-                    <p>Xüsusi ehtiyaclarınıza və məqsədlərinizə əsasən fərdiləşdirilmiş qiymətlər təklif edirik. Xidmətlərimiz aylıq işçilər, layihə əsaslı iş və ya saatlıq konsaltinq kimi təqdim edilə bilər. Biznes tələblərinizə uyğunlaşdırılmış fərdi qiymət təklifi üçün bizimlə əlaqə saxlayın.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Siz müqavilələr təklif edirsiniz, yoxsa aydan aya?</h3>
-                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
-                </div>
-                <div class="faq-answer">
-                    <p>Mənalı nəticələri görmək üçün adətən SEO xidmətləri üçün minimum 6 aylıq öhdəlik tövsiyə edirik. Digər xidmətlər üçün biz sizin üstünlükləriniz və layihə tələblərinizdən asılı olaraq həm müqavilə, həm də aydan aya seçimlər təklif edirik.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Kampaniyalarınızın uğurunu necə qiymətləndirirsiniz?</h3>
-                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
-                </div>
-                <div class="faq-answer">
-                    <p>Biz üzvi trafik, açar söz sıralamaları, dönüşüm nisbətləri, nişan ölçüləri və ROI daxil olmaqla müxtəlif ölçüləri izləyirik. Strategiyalarımızın irəliləyişini və biznes məqsədlərinizə təsirini göstərən müntəzəm hesabatlar təqdim edirik.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Müəyyən sənaye sahələrində şirkətlərlə işləyirsiniz?</h3>
-                    <span class="faq-toggle"><i class="fas fa-plus"></i></span>
-                </div>
-                <div class="faq-answer">
-                    <p>Biz e-ticarət, səhiyyə, texnologiya, peşəkar xidmətlər və s. daxil olmaqla müxtəlif sənaye sahələri üzrə bizneslərlə işləyirik. Komandamız müxtəlif biznes növləri və bazarlar üçün effektiv rəqəmsal marketinq strategiyaları hazırlamaq təcrübəsinə malikdir.</p>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </section>

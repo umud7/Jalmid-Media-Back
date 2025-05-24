@@ -18,6 +18,9 @@ namespace Jalmid_Media.Controllers
         {
             ContactVM contactVM = new ContactVM();
             contactVM.ContactBanner = _context.ContactBanners.FirstOrDefault();
+            contactVM.ContactInfos = _context.ContactInfos.FirstOrDefault();
+            contactVM.ContactMap = _context.ContactMaps.FirstOrDefault();
+            contactVM.ContactFaqs = _context.ContactFaqs.ToList();
 
             return View(contactVM);
         }
