@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\areas\\adminarea\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\areas\\adminarea\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\models\\contactfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\models\\contactfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\areas\\adminarea\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\areas\\adminarea\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\areas\\adminarea\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\areas\\adminarea\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|c:\\users\\umudq\\source\\repos\\jalmid media\\jalmid media\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8F791600-651B-4E2D-86D4-6A34187FE042}|Jalmid Media\\Jalmid Media.csproj|solutionrelative:jalmid media\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactFaq.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\ContactFaq.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Models\\ContactFaq.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Models\\ContactFaq.cs",
-              "RelativeToolTip": "Jalmid Media\\Models\\ContactFaq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:49:12.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAIwIsAAAAsAAAAAAAAAA==",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Jalmid Media\\Areas\\AdminArea\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Jalmid Media\\Areas\\AdminArea\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAIwJcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T15:53:49.158Z",
+              "WhenOpened": "2025-05-26T19:51:29.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ContactVM.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\ContactVM.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\ViewModels\\ContactVM.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ViewModels\\ContactVM.cs",
-              "RelativeToolTip": "Jalmid Media\\ViewModels\\ContactVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Jalmid Media\\Areas\\AdminArea\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Jalmid Media\\Areas\\AdminArea\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T19:47:16.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Jalmid Media\\Areas\\AdminArea\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Areas\\AdminArea\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Jalmid Media\\Areas\\AdminArea\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:50:36.249Z",
+              "WhenOpened": "2025-05-26T19:42:43.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "Jalmid Media\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T15:49:45.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Jalmid Media\\DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "Jalmid Media\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wCEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:48:59.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Jalmid Media\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T18:35:58.27Z",
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Jalmid Media\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\umudq\\source\\repos\\Jalmid Media\\Jalmid Media\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Jalmid Media\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-26T19:24:39.218Z",
               "EditorCaption": ""
             }
           ]

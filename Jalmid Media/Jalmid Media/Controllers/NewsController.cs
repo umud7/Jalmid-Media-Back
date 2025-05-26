@@ -1,6 +1,7 @@
 ﻿using Jalmid_Media.DAL;
 using Jalmid_Media.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace Jalmid_Media.Controllers
@@ -23,5 +24,7 @@ namespace Jalmid_Media.Controllers
 
             return View(newsVM);
         }
+
+
     }
 }

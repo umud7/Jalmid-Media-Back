@@ -26,7 +26,7 @@
                 <p class="date">@Model.HeaderNews.Date</p>
                 <p class="excerpt">@Model.HeaderNews.Description</p>
                 <button class="read-more" data-id="1">Read More</button>
-            </div>
+            </div>  
         </div>
     </section>
 
@@ -45,7 +45,7 @@
                         <h3>@item.Title</h3>
                         <p class="date">@item.Date</p>
                         <p class="excerpt">@item.Description</p>
-                        <button class="read-more" data-id="2">Ətraflı Oxu</button>
+                        <a asp-action="detail" asp-route-id="@item.Id"><button class="read-more" data-id="7">Read More</button></a>
                     </div>
                 </div>
             }

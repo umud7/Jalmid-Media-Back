@@ -27,7 +27,7 @@ using Jalmid_Media.Models
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"28891470762d687fe5d3be1864ff0280d5fca392ecf551148fcfe201b39ca182", @"/Views/Shared/Components/Header/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"670eb3dcd7cf6b507836ffffbdc02fca3f132bfcb08e5135b81591bf0c02006b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"b2136e9f3c2aec115afddb98da90d31e4f379db9de8f9f8d715633f9d8cde520", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_Header_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Bio>
     #nullable disable
