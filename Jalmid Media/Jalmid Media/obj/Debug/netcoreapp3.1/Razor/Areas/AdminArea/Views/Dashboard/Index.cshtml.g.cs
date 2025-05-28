@@ -12,10 +12,28 @@ namespace AspNetCore
     using global::Microsoft.AspNetCore.Mvc;
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
-    #line default
-    #line hidden
+#nullable restore
+#line 1 "C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\Areas\AdminArea\Views\_ViewImports.cshtml"
+using Jalmid_Media.ViewModels
+
+#nullable disable
+    ;
+#nullable restore
+#line 2 "C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\Areas\AdminArea\Views\_ViewImports.cshtml"
+using Jalmid_Media.Models
+
+#nullable disable
+    ;
+#nullable restore
+#line 3 "C:\Users\umudq\source\repos\Jalmid Media\Jalmid Media\Areas\AdminArea\Views\_ViewImports.cshtml"
+using Jalmid_Media.ViewComponents
+
+#line default
+#line hidden
+#nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47658f3d4f61c7f52cc30eebd9535abccc85d246850b472712bd6f35d8d06b8a", @"/Areas/AdminArea/Views/Dashboard/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9344f99f04ddc29c8a60662cb8023f5381bd9ec9d5ce04d8367de25d0e6cbb0b", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_AdminArea_Views_Dashboard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

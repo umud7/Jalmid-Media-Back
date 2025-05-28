@@ -1,0 +1,46 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminArea/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description">Create Category</p>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" accept="image/*" accept="" placeholder="Name" />
+                        <span asp-validation-for="Photo" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
+                    <a asp-action="index" class="btn btn-dark">Back</a>
+                </form>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Header"></label>
+                        <input asp-for="Header" accept="" placeholder="Name" />
+                        <span asp-validation-for="Header" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
+                    <a asp-action="index" class="btn btn-dark">Back</a>
+                </form>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Desc"></label>
+                        <input asp-for="desc"  accept="" placeholder="Name" />
+                        <span asp-validation-for="Desc" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2"> Submit </button>
+                    <a asp-action="index" class="btn btn-dark">Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_Validation" />
+    }
