@@ -7,6 +7,7 @@ namespace Jalmid_Media.Helpers.Extension
 {
     namespace Innowave.Helpers.Extension
     {
+
         public static class Extension
         {
             public static bool CheckImage(this IFormFile file)

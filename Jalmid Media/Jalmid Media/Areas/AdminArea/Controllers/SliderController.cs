@@ -1,4 +1,5 @@
 ﻿using Jalmid_Media.DAL;
+using Jalmid_Media.Helpers.Extension;
 using Jalmid_Media.Helpers.Extension.Innowave.Helpers.Extension;
 using Jalmid_Media.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -55,7 +56,7 @@ namespace Jalmid_Media.Areas.AdminArea.Controllers
             }
 
             Slider newSlider = new Slider();
-            newSlider.ImageUrl = slider.Photo.SaveImage(_env, "assets/img");
+            newSlider.ImageUrl = slider.Photo.SaveImage(_env, "/root");
             newSlider.Photo = slider.Photo;
             newSlider.Header = slider.Header;
             newSlider.Desc = slider.Desc;
@@ -76,7 +77,7 @@ namespace Jalmid_Media.Areas.AdminArea.Controllers
 
         [HttpPost]
         [ActionName("Delete")]
-        public IActionResult DeleteCategory(int? id)
+        public IActionResult DeleteSlider(int? id)
         {
             if (id == null) return NotFound();
             Slider sliders = _appDbContext.Sliders.Find(id);
@@ -84,7 +85,63 @@ namespace Jalmid_Media.Areas.AdminArea.Controllers
             _appDbContext.Sliders.Remove(sliders);
             _appDbContext.SaveChanges();
             return RedirectToAction("Index");
-        }       
+        }
+
+
+        public IActionResult Update(int? id)
+        {
+
+            if (id == null) return NotFound();
+            Slider slider = _appDbContext.Sliders.Find(id);
+            if (slider == null) return NotFound();
+
+            return View(slider);
+        }
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public IActionResult Update(int? id, Slider slider)
+        {
+            if (id == null) return NotFound();
+            Slider existSlider = _appDbContext.Sliders.Find(id);
+            if (existSlider == null) return NotFound();
+
+            string filename = string.Empty;
+
+            if (slider.Photo != null)
+            {
+                string path = Path.Combine(_env.WebRootPath, "/root", existSlider.ImageUrl);
+                if (System.IO.File.Exists(path))
+                {
+
+                    System.IO.File.Delete(path);
+                }
+
+                if (!slider.Photo.CheckImage())
+                {
+                    ModelState.AddModelError("Photo", "shekil Sech");
+                }
+                if (slider.Photo.CheckImageSize(1000))
+                {
+                    ModelState.AddModelError("Photo", "Olchu Boyuktu");
+                }
+
+                filename = slider.Photo.SaveImage(_env, "/root");
+
+
+            }
+
+            existSlider.ImageUrl = filename ?? existSlider.ImageUrl;
+
+            Slider newSlider = new Slider();
+            newSlider.ImageUrl = slider.Photo.SaveImage(_env, "/root");
+            newSlider.Photo = slider.Photo;
+            _appDbContext.Sliders.Add(newSlider);
+            _appDbContext.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
 
 
     }
